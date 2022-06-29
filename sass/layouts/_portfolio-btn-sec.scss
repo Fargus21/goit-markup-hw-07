@@ -1,0 +1,14 @@
+.btn-sec {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.btn__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 50px;
+}
+.btn__items:not(:first-child) {
+    margin-left: 8px;
+}

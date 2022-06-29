@@ -1,0 +1,37 @@
+.mailing {
+    margin-left: auto;
+}
+.mailing-text {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--header-color);
+}
+.subscribe {
+    display: flex;
+}
+.subscribe__input {
+    width: 360px;
+    height: 50px;
+    padding-left: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    margin-right: 12px;
+    color: var(--header-color);
+    background-color: transparent;
+    outline: none;
+    &:hover {
+        border-color: var(--logo-btn-color);
+        transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    &:focus {
+        border-color: var(--logo-btn-color);
+        transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}
+.subscribe__btn-send{
+    margin-left: 10px;
+}

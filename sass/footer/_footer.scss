@@ -1,0 +1,19 @@
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--secondary-color);
+}
+.footer__container {
+    display: flex;
+    align-items: baseline;
+}
+.footer__links {
+    margin-right: 70px;
+}
+.logo--studio {
+    color: var(--header-color);
+}
+.footer__logo {
+    display: block;
+    margin-bottom: 20px;
+}
